@@ -36,6 +36,15 @@ ELODY is a web application to control the data in BIM (Building Information Mode
 -    Multiple file format compatible : IFC, RVT, DWG, DGN, NWD…
 -    Help client/designer to control the quality of BIM deliverables to enhance the use of BIM Models (Cost Estimation, BOQ, Opex, etc)
 
+## Technologies
+
+ELODY is a web application based on the following technologies:
+
+-    Frontend: [React](https://fr.reactjs.org/) [Typescript](https://www.typescriptlang.org/)
+-    Backend: [Node JS](https://nodejs.org/en/)
+
+Both Backend and FrontEnd used [Autodesk Forge](https://forge.autodesk.com/) APIs and Viewer.
+
 ## Data Schema
 
 This section will describe the way to define data schema in the Excel configuration file.
@@ -215,12 +224,3 @@ X | Y | Z
 ## Example
 
 Example file and parameter can be found in this SharePoint folder: [Examples](https://systragroup.sharepoint.com/:f:/r/sites/Forge/Documents%20partages/eLODy/Examples?csf=1&web=1&e=Mpo6tJ)
-
-## Technologies
-
-ELODY is a web application based on the following technologies:
-
--    Frontend: [React](https://fr.reactjs.org/) [Typescript](https://www.typescriptlang.org/)
--    Backend: [Node JS](https://nodejs.org/en/)
-
-Both Backend and FrontEnd used [Autodesk Forge](https://forge.autodesk.com/) APIs and Viewer.
