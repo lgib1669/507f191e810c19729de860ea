@@ -1,5 +1,22 @@
 # ELODY
 
+## Summary
+
+1. [Introduction](#introduction)
+2. [Technologies](#technologies)
+3. [Data Schema](#data-schema)
+    1. [Excel Tabs](#excel-tabs)
+    2. [Rules](#rules)
+    3. [File Data Tab](#file-data-tab)
+        1. [Filename](#filename)
+        2. [Levels](#levels)
+        3. [IfcProject / IfcSite / IfcBuilding / Project Information](#ifcproject-ifcsite-ifcbuilding-project-information)
+        4. [Unit](#unit)
+    4. [Generic Properties Tab](#generic-properties-tab)
+    5. [Classification](#classification)
+    6. [Geo Markers](#geo-markers)
+4. [Examples](#examples)
+
 ## Description
 
 ELODY is a web application to control the data in BIM (Building Information Modeling) Models. The control is based on a data schema given by the user and exports can be done to the following formats: Excel and [BCF](https://en.wikipedia.org/wiki/BIM_Collaboration_Format).
